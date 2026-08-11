@@ -76,7 +76,7 @@ Además de estos datos, cada hoja contaba con una tabla resumen que abarca desde
 
 ![Dataset](dataset.png)
 
-### Nota: Para demostrar el funcionamiento de funciones de limpieza y validación de datos, modifique deliberadamente algunos registros del dataset durante el desarrollo para simular algunos errores de calidad (valores fuera de rango, integridad de votos inconsistente). 
+#### Nota: Para demostrar el funcionamiento de funciones de limpieza y validación de datos, modifique deliberadamente algunos registros del dataset durante el desarrollo para simular algunos errores de calidad (valores fuera de rango, integridad de votos inconsistente). 
 
 
 6. Metodología
@@ -129,25 +129,9 @@ Las siguientes visualizaciones desarrolladas permiten responder a las principale
 
 | Preguntas de análisis               | Visualización          |  Insight                                 |
 |-------------------------------------|------------------------|------------------------------------------|
-| ¿Qué colectivos presentaron una     | ![Barplot](barplot.png)| Permite comparar la distribución de las  |
-| mayor tasa de aprobación frente a   |                        | preferencias de voto entre colectivos,   |
-| iniciativas medioambientales?       |                        | ordenados según su tasa de aprobación    |
-| ¿Cómo se distribuían las            |                        | para identificar colectivos con mayores  |
-| preferencias de voto de cada        |                        | niveles de aprobación y rechazo.         | 
-| colectivo?                          |                        |                                          |
-|                                     |                        |                                          |  
-|                                     |                        | Permite evaluar la dispersión de las     |
-| ¿Qué tan cohesionados eran los votos| ![Boxplot](boxplot.png)| tasas de votación entre colectivos por   |
-| dentro de un mismo colectivo?       |                        | tipo de voto, así identificar aquellos   |
-|                                     |                        | que presentan una mayor cohesión interna,|
-|                                     |                        | como también quienes presentan mayores   |
-|                                     |                        | diferencias internas al emitir sus votos.|
-|                                     |                        |                                          |
-|                                     |                        | Permite identificar similitudes y        |
-| ¿Qué colectivos presentaban patrones| ![Heatmap](heatmap.png)| diferencias entre los colectivos al      |
-| de votación similares?              |                        | emitir un tipo de voto, revelando        |
-|                                     |                        | aquellos que poseen patrones de votación |  
-|                                     |                        | similares.                               |
+| ¿Qué colectivos presentaron una mayor tasa de aprobación frente a iniciativas medioambientales? ¿Cómo se distribuían las preferencias de voto de cada colectivo?| ![Barplot](barplot.png)| Permite comparar la distribución de las preferencias de voto entre colectivos, ordenados según su tasa de aprobación para identificar colectivos con mayores niveles de aprobación y rechazo.|
+| ¿Qué tan cohesionados eran los votos dentro de un mismo colectivo? |  ![Boxplot](boxplot.png) | Permite evaluar la dispersión de las tasas de votación entre colectivos por tipo de voto, así identificar aquellos que presentan una mayor cohesión interna, como también quienes presentan mayores diferencias internas al emitir sus votos. |
+| ¿Qué colectivos presentaban patrones de votación similares? |  ![Heatmap](heatmap.png) | Permite identificar similitudes y diferencias entre los colectivos al emitir un tipo de voto, revelando aquellos que poseen patrones de votación similares. |
 
 
 9. Resultados
