@@ -174,9 +174,7 @@ Entre las mejoras que me gustaría implementar en el futuro se encuentran las si
 11. Autor
 Soy Alfredo Bastías Lagos, Ex-educador diferencial y activista medioambiental, y estoy en un proceso de transición para convertirme en especialista en Análisis de Datos.
 
-
 Contacto:
-
-LinkedIn: https://www.linkedin.com/in/alfredo-bastias/
-GitHub: https://github.com/Pelosaurio/
-Correo: alfredo_bastias.91@gmail.com
+| LinkedIn: https://www.linkedin.com/in/alfredo-bastias/ |
+| GitHub: https://github.com/Pelosaurio/ |
+| Correo: alfredo_bastias.91@gmail.com |
