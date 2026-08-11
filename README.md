@@ -101,18 +101,12 @@ La arquitectura de este proyecto sigue un enfoque modular basado en el principio
 
 | Módulo       | Responsabilidad                                                                   |
 | ------------ | --------------------------------------------------------------------------------- |
-| analysis     | Cálculo de medidas de tendencia central y de dispersión, tasas de votación y      |
-|              | matrices de correlación utilizadas en el analisis exploratorio y visualizaciones. |
-| clean        | Eliminación de duplicados, rellenando de valores faltantes, actualización de      |
-|              | registros inconsistentes y filtrado de categorias.                                |
-| config       | Configuración de rutas de directorios, parámetros predeterminados para            |
-|              | visualizaciones, y definición de un set de colores.                               |
-| process      | Carga de datos, copia/exclusión/unión de hojas, agrupación de Dataframe,          |
-|              | almacenamiento de datos y otras funciones de procesamiento de datos.              |
-| utils        | Agrupa funciones de validación de datos, registro de loggings, y utilidades       |
-|              | relacionadas la generación de una ruta de salida.                                 |
-| views        | Presentación de información en la consola y generación de visualizaciones         |
-|              | (barplots, boxplots, heatmaps)                                                    | 
+| analysis     | Cálculo de medidas de tendencia central y de dispersión, tasas de votación y matrices de correlación utilizadas en el analisis exploratorio y visualizaciones. |
+| clean        | Eliminación de duplicados, rellenando de valores faltantes, actualización de registros inconsistentes y filtrado de categorías. |
+| config       | Configuración de rutas de directorios, parámetros predeterminados para visualizaciones, y definición de un set de colores. |
+| process      | Carga de datos, copia/exclusión/unión de hojas, agrupación de DataFrame, almacenamiento de datos y otras funciones de procesamiento de datos. |
+| utils        | Agrupa funciones de validación de datos, registro de loggings, y utilidades relacionadas la generación de una ruta de salida. |
+| views        | Presentación de información en la consola y generación de visualizaciones (barplots, boxplots, heatmaps). | 
 
 El siguiente esquema resume la organización de estos módulos, incluyendo hasta 4 funciones representativas:
 ![arquitectura](arquitectura.png)
