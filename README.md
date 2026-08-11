@@ -76,7 +76,7 @@ Además de estos datos, cada hoja contaba con una tabla resumen que abarca desde
 
 ![Dataset](dataset.png)
 
-# Nota: Para demostrar el funcionamiento de funciones de limpieza y validación de datos, modifique deliberadamente algunos registros del dataset durante el desarrollo para simular algunos errores de calidad (valores fuera de rango, integridad de votos inconsistente). 
+### Nota: Para demostrar el funcionamiento de funciones de limpieza y validación de datos, modifique deliberadamente algunos registros del dataset durante el desarrollo para simular algunos errores de calidad (valores fuera de rango, integridad de votos inconsistente). 
 
 
 6. Metodología
@@ -135,9 +135,9 @@ Las siguientes visualizaciones desarrolladas permiten responder a las principale
 
 | Preguntas de análisis               | Visualización          |  Insight                                 |
 |-------------------------------------|------------------------|------------------------------------------|
-| ¿Qué colectivos presentaron una     |                        | Permite comparar la distribución de las  |
+| ¿Qué colectivos presentaron una     | ![Barplot](barplot.png)| Permite comparar la distribución de las  |
 | mayor tasa de aprobación frente a   |                        | preferencias de voto entre colectivos,   |
-| iniciativas medioambientales?       | ![Barplot](barplot.png)| ordenados según su tasa de aprobación    |
+| iniciativas medioambientales?       |                        | ordenados según su tasa de aprobación    |
 | ¿Cómo se distribuían las            |                        | para identificar colectivos con mayores  |
 | preferencias de voto de cada        |                        | niveles de aprobación y rechazo.         | 
 | colectivo?                          |                        |                                          |
